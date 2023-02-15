@@ -1,0 +1,21 @@
+@font-face {
+    font-family: proxima;
+    src: url(../font/Proxima-Nova-Font/Proxima\ Nova\ Font.otf);
+}
+
+body{
+    font-family: proxima;
+}
+header{
+    height: 46px;
+    width: 100%;
+    background-color: #2f364a;
+    text-align: center;
+}
+.header-text p{
+    font-size: 12px;
+    color: #78829d;
+    line-height: 26px;
+    display: inline-block;
+    margin: 1%;
+}
