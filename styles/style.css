@@ -150,3 +150,8 @@ header{
     color: #78829d;
     margin-left: 15px;
 }
+
+/* Notifications */
+.notifications{
+    height: 100%;
+}
