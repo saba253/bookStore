@@ -17,6 +17,11 @@
     display: flex;
     justify-content: space-around;
 }
+.active-page{
+    height: 38px;
+    background-color: #15a4fa;
+    padding-top: 10px;
+}
 
 @font-face {
     font-family: proxima;
@@ -32,12 +37,15 @@ header{
     width: 100%;
     background-color: #2f364a;
 }
+.header-text{
+    width: 100px;
+}
 .header-text p{
-    font-size: 12px;
+    font-size: 15px;
     color: #78829d;
     line-height: 26px;
-    margin-top: 15%;
-    margin-left: 990%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 .help-center ul{
     margin: 10px;
@@ -81,3 +89,45 @@ header{
     color: white
 }
 
+
+/* Navbar CSS */
+
+
+.navbar{
+    width: 200px;
+    height: 100%;
+    background-color: #1f2637;
+}
+.add-book button{
+    width: 160px;
+    height: 44px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #f2795a;
+    margin:35px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background-color:rgba(24,30,44,0.8);
+}
+.category{
+    height: 100%;
+}
+.category-btn{
+    height: 38px;
+    margin-top: 15px;
+}
+.category-btn a{
+    margin-left: 22px;
+    font-size: 13px;
+    color: #78829d;
+}
+.category-btn:nth-child(1){
+    padding-top: 10px;
+}
