@@ -18,7 +18,6 @@
     justify-content: space-around;
 }
 .active-page{
-    height: 38px;
     background-color: #15a4fa;
     padding-top: 10px;
 }
@@ -116,18 +115,38 @@ header{
     height: 4px;
     background-color:rgba(24,30,44,0.8);
 }
+
 .category{
-    height: 100%;
+    width: 200px;
 }
 .category-btn{
     height: 38px;
     margin-top: 15px;
 }
 .category-btn a{
-    margin-left: 22px;
     font-size: 13px;
     color: #78829d;
 }
+.category-btn img{
+    margin-left: 22px;
+    margin-right: 12px;
+}
 .category-btn:nth-child(1){
-    padding-top: 10px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.lists{
+    height: 100%;
+}
+.lists ul{
+    margin: 15px 22px;
+}
+.lists li{
+    margin-top: 20px;
+}
+.lists a{
+    font-size: 13px;
+    color: #78829d;
+    margin-left: 15px;
 }
